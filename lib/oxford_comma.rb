@@ -7,7 +7,7 @@ def oxford_comma(arr)
     arr.join(' and ')
   else
     name = arr.pop
-    arr.join(', ') + ", and " + name
-    arr
+    arr2 = arr.join(', ') + ", and " + name
+    arr2
   end
 end
